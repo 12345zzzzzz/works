@@ -1,0 +1,1730 @@
+/*Шрифты*/
+@font-face {
+	font-family: 'Montserrat';
+	src: url('fonts/Montserrat-ExtraBold.woff') format('woff');
+	font-display: swap;
+	font-weight:800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('fonts/Montserrat-SemiBold.woff') format('woff');
+	font-display: swap;
+	font-weight:600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('fonts/Montserrat-Bold.woff') format('woff');
+	font-display: swap;
+	font-weight:700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('fonts/Montserrat-ExtraLight.woff') format('woff');
+	font-display: swap;
+	font-weight:200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('fonts/Montserrat-Light.woff') format('woff');
+	font-display: swap;
+	font-weight:300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('fonts/Montserrat-Medium.woff') format('woff');
+	font-display: swap;
+	font-weight:500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('fonts/Montserrat-Regular.woff') format('woff');
+	font-display: swap;
+	font-weight:400;
+	font-style: normal;
+}
+
+
+	/*Общие*/
+body{font-family:Montserrat}
+ ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;}
+.container{
+	width:1770px;margin:0 auto;}
+	
+/*Хэдер*/
+.header-container{
+	height:100px;
+	display:flex;
+	flex-direction:row;
+}
+.logo{
+width: 224px;
+height: 72px;
+margin-top: 14px;
+margin-bottom:15px;
+
+
+}
+.menu{
+	display:flex;
+	flex-direction:row;
+	height: 22px;
+    padding-top: 42px;
+	margin-left:auto;
+	
+}
+.li-item{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+padding-right:85px;
+text-align: center;
+color: #333333;
+
+}
+
+
+.search {
+    background-image: url(img/Search.jpg);
+    background-size: contain;
+	background-repeat:no-repeat;
+	width: 25px;
+height: 25px;
+margin-left: 0px;
+margin-top: 35px;
+}
+
+/*О нас */
+.baner{
+	    background-image: url(img/baner.jpg);
+    background-size: 1770px;
+    background-repeat: no-repeat;
+    width: 1770px;
+    height: 620px;
+    
+}
+.text1-baner{
+width: 841.76px;
+height: 159px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 70.3742px;
+line-height: 86px;
+color: #FFFFFF;
+padding-left:68px;
+padding-top:53px;
+}
+
+.text2-baner{
+	
+width: 836.73px;
+height: 58px;
+left: 153px;
+padding-top:32px; 
+padding-left:78px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 23.4581px;
+line-height: 29px;
+
+color: #FFFFFF;
+}  
+/*О нас */ 
+ .button-baner{
+    width: 280.52px;
+    height: 80px;
+    background: #FF9900;
+    margin-left: 80px;
+    margin-top: 97px;
+ }  
+ .text-button{
+	 font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 23.4581px;
+line-height: 29px;
+text-align: center;
+color: #FFFFFF;
+margin: 9.77419px 0px;
+	 
+ }
+ /*О нас*/
+ .about-us-text1{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 59px;
+margin-top: 100px;
+margin-left: 75px;
+color: #333333;}
+ 
+ .about-us-text2{
+margin-top:10px;
+margin-left: 75px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+color: #333333;
+width: 1235px;
+  }
+.h3{font-weight:bold}
+
+.burger{display:none;}
+
+/*О нас2 */
+.working{display:flex;
+flex-direction:row;
+width: 870px;
+height: 622px;
+}
+.foto1-block{display:flex;
+flex-direction:row;align-items:center}
+.foto1{
+	background-image: url(img/foto1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 770px;
+    height: 622px;
+	margin-top:44px;
+}
+.foto1-block{
+	background: rgba(0, 0, 0, 0.5);
+	width: 770px;
+	color:white;
+	margin-top: 422px;
+	height:130px;
+}
+.about-us2-block1-2-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 377px;
+    
+    margin-left: 54px;
+   
+	
+}
+.button-working{width: 125px;
+height: 60px;
+border: 3px solid #FF9900;
+margin-left: 100px;
+
+}
+
+.text-button-working{
+	margin: 20px 20px;
+}
+
+.about-us2-right{
+background: #FFFFFF;
+border: 1px solid #CACACA;
+margin-left:120px;
+margin-top:30px;
+width: 870px;
+height: 295px;
+}
+.about-us-desc{line-height:32px}
+
+.working1{display:flex;}
+.about-us-block2-1{
+	background-image: url(img/foto2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+	width: 178px;
+    height: 295px;
+	margin-left:63px;
+	margin-top:71px;
+	
+}
+.about-us-block2-2{
+	background-image: url(img/foto3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+	width: 178px;
+    height: 137px;
+	margin-left:63px;
+	margin-top:71px;
+    
+}    
+
+
+
+.working-right-block{width: 452px;
+height: 156px;
+margin-left:250px;
+font-size: 18px;
+line-height:29.26px;
+}
+
+
+/*Как мы работаем */
+.HowWorkingHeader{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 59px;
+color: #333333;
+}
+.HowWorkingHeader-text1{
+font-family: Montserrat;
+font-style: normal;
+font-size: 24px;
+line-height: 32px;
+color: #333333;
+width: 758px;
+height: 316px;
+margin-top: 49px;
+
+}
+
+.Steps{
+	display:flex;
+	flex-direction:row;
+	margin-top:38px;
+	}
+.StepsItem{
+	margin-right:81px;
+	text-decoration:none;
+	
+}	
+
+.how-work-2bloks{display:flex;}
+.HowWorkingHeader-Img1{
+	background-image: url(img/foto4.png);
+    background-size: 870px;
+    background-repeat: no-repeat;
+	width: 870px;
+    height: 465px;
+    margin-top: 80px;
+	margin-left:150px;
+	}
+	
+	
+	.HowWorkingHeader-btn1 {
+    padding: 19px 0px 0px 38px;
+    width: 175px;
+    height: 60px;
+    background: #FF9900;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+	
+	
+	.HowWorkingHeader-btn1-text{font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+padding: 0;
+	}
+	
+	.button-document {
+    width: 175px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 25px;
+	background-color:#FFFFFF
+
+	}
+.how-work-buttons{display:flex;}
+
+/*Часто задаваемые вопросы*/
+	.question-block1{
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 48px;
+		line-height: 59px;
+		color: #333333;
+		margin-bottom:27px;
+		margin-top:200px;
+	}
+	.border2{
+		border-bottom:1px solid #CACACA;
+		height:113px;
+		width:1770px;
+		}
+	.question{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+color: #333333;
+padding-top: 45px;
+}
+	.icon1{
+	background-image: url(img/icon1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+	width: 49.8px;
+	height: 50px;
+	margin-left: auto;
+    margin-right: 50px;
+    margin-top: -50px;
+    }
+	/*Футер*/	
+	.footer-main{
+		width: 1920px;
+		background: #222222;
+		margin-top:100px;
+	}
+	
+	.logo2{
+	background-image: url(img/logo2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+	width: 224px;
+	height: 72px;
+	margin-left:75px;
+	margin-top:48px;
+	}
+	.footer-li-item{
+		color:#CACACA;;
+		text-decoration:none;
+	}
+	
+	.footer-ul{
+		margin-left:75px;
+		margin-top:19px;
+	}
+	.footer-ul2{
+		display:flex;
+		flex-direction:row;
+		margin-top:118.12px;
+	}
+	.fb{
+	background-image: url(img/fb.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+	width: 60px;
+	height: 60px;
+	margin-right:25.08px;
+	}
+	.vk{
+	background-image: url(img/vk.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+	width: 60px;
+	height: 60px;
+	margin-right:25.08px;
+	}
+	.instagram{
+	background-image: url(img/instagram.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+	width: 60px;
+	height: 60px;
+	}
+	
+	.h3-form-footer{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 59px;
+	text-align: center;
+	margin-top:57px;
+	
+	color: #CACACA;
+	}
+	
+	.footer-form-input-1{
+		width: 570px;
+		height: 60px;
+		background: #414141;
+		margin-bottom:5px;
+		padding-left:24px;
+		
+		margin-top: -20px;
+	}
+	.footer-form-textarea{
+		width: 570px;
+		height: 125px;
+		background: #414141;
+		padding-left:24px;
+		padding-top:14px;
+		
+		margin-top: 5px;
+	}
+	.footer-form-button{
+		padding: 20px 52px;
+		
+		height: 60px;
+		background: #FF9900;
+		margin-left: 55px;
+		margin-top: 5px;
+		
+	}
+	.footer-form-button-text{font-family: Montserrat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 20px;
+		text-align: center;
+        color: #FFFFFF;
+		
+		margin-bottom: 50px;
+}
+	.flex-form-button{
+		display:flex;
+		flex-direction:row;
+		
+	}
+	
+	.footer-form-checkbox{
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 32px;
+        color: #CACACA;
+
+	}
+	.footer-block3-2-1{
+width: 363px;
+height: 320px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 32px;
+color: #CACACA;
+margin-top: 126px;
+margin-right: 56px;	
+
+	}
+	.footer-block2{
+		margin-right:284px;
+		
+	}
+.footer-block-3-1{display:flex;justify-content:space-between}
+.footer-ul2{margin-left:50px}
+.h3-form-footer{margin-left:-128px;}
+}
+
+/*Эффекты*/
+.class_a:hover{
+	text-decoration: underline #FF9900;cursor:pointer;
+}
+.effects_search:hover{
+	background-image: url(img/search-orange.png);cursor:pointer;
+}
+.burger:hover{background-image: url(img/burger-orange.png);cursor:pointer;}
+.button-baner:hover{background-color:#FFC266;cursor:pointer;} 
+.StepsItem:hover{color:#FFC266;cursor:pointer;}
+.button-document:hover{background-color:#222222;color:white;cursor:pointer;}
+.question:hover{color:#FFC266;cursor:pointer;}
+.icon1:hover{background-image: url(img/icon2.png);cursor:pointer;}
+.about-us2-button:hover{background-color:#FF9900;color:white;cursor:pointer;}
+button:hover{cursor:pointer}
+
+@media(max-width: 1025px){
+.container{
+	max-width:925px;margin:0 auto;}
+.menu{
+	display:none;}
+	
+.burger{
+display:block;
+background-image: url(img/Burger.png);
+    background-size: contain;
+	background-repeat:no-repeat;
+	width: 25px;
+    height: 25px;
+	}
+	
+.header-container{
+	 justify-content: space-between;
+	 align-items:center;
+	 height:100px;
+}
+.search{margin-left: 0; margin-top: 0;}
+
+.baner{
+	    background-image: url(img/baner2.png);
+    background-size: 924px;
+    background-repeat: no-repeat;
+    width: 924px;
+    height: 620px;
+    
+}
+.text2-baner{
+	width: 658px;
+	font-size: 23.4581px;
+    line-height: 29px;
+}
+
+
+.button-baner{
+    width: 287.52px;
+    height: 80px;
+    background: #FF9900;
+    margin-left: 80px;
+    margin-top: 135px;
+ }
+ /*О нас*/
+ .about-us-text1{
+	 margin-top:100px;
+	 margin-left: 50px;
+ }
+ .about-us-text2{
+	 margin-left: 50px; 
+	width: 668px; 
+ } 
+ .working1 {
+    display: flex;
+    flex-direction: column;
+
+}
+.working{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.foto1{
+	background-size: 920px;
+    background-repeat: no-repeat;
+    width: 920px;
+    height: 622px;
+    margin-top: 44px;
+}
+.foto1-block {
+    background: rgba(0, 0, 0, 0.5);
+    width: 920px;
+    color: white;
+    margin-top: 491px;
+    height: 130px;
+}
+.about-us2-block1-2-text {
+margin-left:43px;
+margin-top:44px;	
+}
+.button-working {
+    margin-left: 258px;
+    margin-top: 57px;
+}
+.about-us2-right {
+    width: 920px;
+    height: 284px;
+	margin-left: 0;
+}
+.about-us-block2-1 {
+   background-size: 178px;
+   width: 178px;
+   height: 178px;
+   margin-left:112px;
+   margin-top:76px;
+}
+/*Рабочий*/
+.working-right-block{
+	width:452px;
+	margin-left:58px;
+}
+.working-right-block {
+    width: 452px;
+    margin-left: 266px;
+   }
+.about-us-block2-2{
+   background-size: 178px;
+   width: 178px;
+   height: 178px;
+   margin-left:112px;
+   margin-top:76px;
+}
+
+/*Как мы работаем*/
+.HowWorkingHeader-Img1{
+	background-image: url(img/foto5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+	width: 437px;
+    height: 689px;
+    margin-top: 80px;
+	margin-left:25px;
+	}
+.HowWorkingHeader-text1{
+	font-size: 24px;
+	line-height: 25px;
+}
+/*Часто задаваемые вопросы*/
+.border2{width:920px;}
+.question{width: 847px;}
+
+/*Футер*/
+.footer-block3{display.none}
+.footer-block3-2-1{display:none;}
+.footer-main{width:1024px}
+
+.footer-form-button{margin-left: 55px;}
+}
+
+
+@media(max-width: 768px){
+/*Общие*/
+.container{
+	max-width:768x;margin:0 auto;}
+.header-container{
+	 justify-content: space-between;
+	 align-items:center;
+	 height:69px;
+}
+/*Банер*/
+.baner{
+	    background-image: url(img/baner2.png);
+    background-size: 768px;
+    background-repeat: no-repeat;
+    width: 768px;
+    height: 768px;
+    
+}
+.search{margin-right:21px;
+	margin-top:20px;}
+.burger{
+	margin-left:48px;
+	margin-top:21px;
+}
+.text1-baner{
+	font-size: 60px;
+	width:721px;
+	margin-left:-38px;
+	}
+.text2-baner{
+	width: 558px;
+	font-size: 20px;
+	line-height: 24px;
+	margin-left:-38px;
+}	
+.button-baner{
+	margin-left:49px;
+	margin-top:110px;
+}
+/*О нас*/
+.about-us-text1 {
+    margin-top: -100px;
+    margin-left: 48px;
+}
+.about-us-text2 {
+    margin-top:36px;
+    margin-left: 50px;
+	width:668px;
+}
+/*Рабочий*/
+.working{width: 668px;
+height: 650px;}
+
+.foto1 {
+    background-size: 668px;
+    width: 668px;
+    height: 650px;
+    margin-top: 49px;
+ margin-left: 50px;
+  margin-right: 50px;
+}
+.foto1-block {
+    width: 668px;
+    height: 119px;
+	margin-top: 357px;
+	
+}
+.about-us2-block1-2-text {
+	width: 401px;
+    height: 119px;
+}
+.button-working {
+    margin-left: 58px;
+margin-top:0px;}
+
+.about-us2-right {
+	margin-top: -100px;
+    margin-bottom: 150px;
+	margin-left: 50px;
+	width:668px;
+}
+
+.about-us-block2-1{
+	width:104px;
+	height:104px;
+	background-size: 104px;
+	margin-left:31px;
+	margin-top:65px;
+	}
+	.about-us-block2-2{
+	width:104px;
+	height:104px;
+	background-size: 104px;
+	margin-left:31px;
+	margin-top:65px;
+	}
+/*Как мы работаем*/
+.working-right-block{
+	margin-left: 166px;
+}
+.HowWorkingHeader{
+    margin-top: -100px;
+    margin-left: 50px;
+}
+.Steps{
+	width: 668px;
+    margin-left: 50px;
+	font-size: 18px;
+	margin-right:150px;
+}
+.StepsItem{
+	margin-right: 111px;
+}
+.how-work-2bloks {
+    display: flex;
+flex-direction: column-reverse;
+margin-top: -200px;
+}
+
+.HowWorkingHeader-text1{
+	margin-left: 50px;
+    width: 668px;
+}
+.HowWorkingHeader-Img1 {
+    background-image: url(img/foto7.png);
+    background-size: 668px;
+    background-repeat: no-repeat;
+    width: 668px;
+    height: 284px;
+   margin-top: 250px;
+    }
+/*Часто задаваемые вопросы*/	
+.question-block1 {
+    margin-top: 350px!important;
+}
+.question-block1{
+	margin-top:350px!important;
+	margin-left: 50px;
+}
+.border2 {
+    
+margin-left: 50px;}
+
+.question{width: 489px;font-size: 20px;}
+/*Футер*/
+.footer-ul{display:none}
+.footer-ul2{margin-top: 20px;margin-left: 68px;}
+
+.footer-block-3-1 {
+display: flex;
+flex-direction: column-reverse;
+}
+.footer-main{
+	height:550px
+	
+}
+.footer-block1{
+	background-color:#222222
+}
+.h3-form-footer{
+	margin-right: 0px;
+}
+.footer-form-button{margin-left: 50px;}
+}
+.footer-form-input-1{
+	margin-left: 50px;
+}
+.footer-form-textarea{
+		margin-left: 50px;
+}
+.footer-block1 {
+    background-color: #222222;
+    width: 112%;
+    margin-left: -50px;
+}
+
+}
+@media(max-width: 1025px) {
+
+    * {
+
+        box-sizing: border-box;
+
+        margin: 0;
+
+        padding: 0;
+
+    }
+
+    .container {
+
+        max-width: 924px;
+
+        margin: 0 auto;
+
+    }
+
+    .menu {
+
+        display: none;
+
+    }
+
+    .burger {
+
+        display: block;
+
+        background-image: url(img/Burger.png);
+
+        background-size: contain;
+
+        background-repeat: no-repeat;
+
+        width: 30px;
+
+        height: 23px;
+
+    }
+
+    .header-container {
+
+        align-items: center;
+
+        justify-content: space-between;
+
+    }
+
+    .logo {
+
+        width: 144px;
+
+        height: auto;
+
+    }
+
+    .search {
+
+        display: block;
+
+        margin: 3px -3px 0 0;
+
+        width: 26px;
+
+        height: 26px;
+
+    }
+
+    .banner {
+
+        background-image: url(img/banner2.png);
+
+        background-size: 924px;
+
+        background-repeat: no-repeat;
+
+        width: 924px;
+
+        height: 666px;
+
+        padding: 160px 22px 0 46px;
+
+        text-align: left;
+
+    }
+
+    .swiper-container {
+
+        height: 666px;
+
+    }
+
+    .text1-banner {
+
+        padding: 0;
+
+        margin: 0;
+
+        width: auto;
+
+        height: auto;
+
+        font-weight: 800;
+
+        font-size: 60px;
+
+        line-height: 73px;
+
+    }
+
+    .text2-banner {
+
+        padding: 0;
+
+        margin: 10px 0 0 0;
+
+        width: 700px;
+
+        height: auto;
+
+        font-weight: 500;
+
+        font-size: 20px;
+
+        line-height: 24px;
+
+        letter-spacing: 0.4px;
+
+    }
+
+    .button-banner {
+
+        padding: 25px 38px;
+
+        margin: 109px 0 0 0;
+
+        width: auto;
+
+        height: auto;
+
+        font-size: 24px;
+
+        line-height: 29px;
+
+    }
+
+    .about-us {
+
+        margin-top: 62px;
+
+    }
+
+    .about-us-text1 {
+
+        margin: 38px 0 0 0;
+
+        font-weight: normal;
+
+        font-size: 48px;
+
+        line-height: 59px;
+
+    }
+
+    .about-us-text2 {
+
+        width: auto;
+
+        height: auto;
+
+        margin: 25px 0 0 0;
+
+        font-size: 16px;
+
+        font-weight: 400;
+
+        line-height: 32px;
+
+    }
+
+    .foto1 {
+
+        display: block;
+
+        position: relative;
+
+        width: auto;
+
+        height: auto;
+
+        margin: 58px 0 0 0;
+
+        background-size: 100% 640px;
+
+    }
+
+    .about-us2-block1-2-text {
+
+        width: auto;
+
+        height: 640px;
+
+        margin: 0 0 50px 0;
+
+        padding: 467px 380px 0 45px;
+
+        font-size: 16px;
+
+        font-style: normal;
+
+        font-weight: 600;
+
+        line-height: 32px;
+
+        background: transparent;
+
+    }
+
+    .foto1-block::after {
+
+        content: "";
+
+        position: absolute;
+
+        height: 174px;
+
+        width: 100%;
+
+        top: 466px;
+
+        left: 0;
+
+        background: rgba(0, 0, 0, 0.5);
+
+    }
+
+    .button-working {
+
+        position: absolute;
+
+        margin: 11px 0 34px 0;
+
+        padding: 18px 36px;
+
+        height: auto;
+
+        font-size: 16px;
+
+        font-style: normal;
+
+        font-weight: 700;
+
+        line-height: 20px;
+
+        border: 2px solid #FF9900;
+
+        left: 700px;
+
+        bottom: 827px;
+
+    }
+
+    .about-us2-right {
+
+        width: auto;
+
+        height: auto;
+
+        margin: 0;
+
+        padding: 0;
+
+    }
+
+    .about-us2-right {
+
+        width: auto;
+
+        height: 295px;
+
+        margin: 0;
+
+        padding: 0;
+
+        border: 1px solid #cacaca;
+
+        background-size: 64px auto;
+
+        background-position: 0 6px;
+
+    }
+
+    .about-us2-right:last-child {
+
+        margin-top: 40px;
+
+    }
+
+    .about-us-block2-1 {
+
+        width: auto;
+
+        height: auto;
+
+        margin: 0;
+
+        padding: 0 120px 0 350px;
+
+        border: 0;
+
+        background-size: 180px auto;
+
+        background-position: 112px 76px;
+
+    }
+
+    .working-right-block {
+
+        width: auto;
+
+        height: auto;
+
+        margin: 0;
+
+        padding: 0;
+
+        border: 0;
+
+        background-size: 64px auto;
+
+        background-position: 0 6px;
+
+    }
+
+    .consultation {
+
+        font-weight: 700;
+
+        font-size: 24px;
+
+        line-height: 28px;
+
+        padding: 68px 0 0 0;
+
+    }
+
+    .about-us-desc {
+
+        font-weight: 400;
+
+        font-size: 16px;
+
+        line-height: 31px;
+
+        margin: 7px 0 0 0;
+
+    }
+
+    .about-us-block2-2 {
+
+        padding: 0 120px 66px 350px;
+
+        background-size: 180px auto;
+
+        background-position: 111px 63px;
+
+        border: 1px solid #cacaca;
+
+    }
+
+    .work {
+
+        width: auto;
+
+        height: auto;
+
+        margin: 59px 0 0 0;
+
+        padding: 0;
+
+    }
+
+    .workHeader {
+
+        width: auto;
+
+        height: auto;
+
+        margin: 0;
+
+        padding: 0;
+
+        font-size: 48px;
+
+        font-style: normal;
+
+        font-weight: 400;
+
+        line-height: 59px;
+
+    }
+
+    .Steps {
+
+        width: auto;
+
+        height: auto;
+
+        margin: 50px 0 0 0;
+
+        padding: 0;
+
+        font-size: 18px;
+
+        line-height: 22px;
+
+    }
+
+    .StepsItem {
+
+        margin-right: 43px;
+
+    }
+
+    .how-work-2bloks {
+
+        flex-direction: column-reverse;
+
+        margin-top: -200px;
+
+    }
+
+    .workHeader-text1 {
+
+        margin-left: 50px;
+
+        width: 668px;
+
+    }
+
+    .workHeader-Img1 {
+
+        background-image: url(img/foto5.png);
+
+        width: auto;
+
+        height: auto;
+
+        margin: 43px 0 0 0;
+
+        padding: 0;
+
+        background-size: 437px auto;
+
+        background-position: right 10px;
+
+    }
+
+    .h3 {
+
+        font-size: 24px;
+
+        line-height: 32px;
+
+    }
+
+    .paragraph2 {
+
+        width: 437px;
+
+        height: auto;
+
+        margin: 2px 0 0 0;
+
+        font-size: 16px;
+
+        line-height: 32px;
+
+    }
+
+    .how-work-buttons {
+
+        width: 355px;
+
+        margin: 30px 0 0 0;
+
+        justify-content: space-between;
+
+    }
+
+    .workHeader-btn1 {
+
+        width: auto;
+
+        height: auto;
+
+        margin: 0 0 0 0;
+
+        padding: 21px 36px;
+
+        font-size: 16px;
+
+        font-style: normal;
+
+        font-weight: 700;
+
+        line-height: 15px;
+
+    }
+
+    .button-document {
+
+        width: auto;
+
+        height: auto;
+
+        margin: 0 0 0 0;
+
+        padding: 21px 36px;
+
+        font-size: 16px;
+
+        font-style: normal;
+
+        font-weight: 700;
+
+        line-height: 15px;
+
+    }
+
+    .question {
+
+        width: 750px;
+
+        height: auto;
+
+        margin: 59px 0 0 0;
+
+        padding: 0;
+
+        height: auto;
+
+        font-size: 20px;
+
+        font-style: normal;
+
+        font-weight: 500;
+
+        line-height: 32px
+
+    }
+
+    .ui-accordion {
+
+        margin-top: 36px;
+
+    }
+
+    .ui-accordion-header {
+
+        display: flex;
+
+        align-items: center;
+
+        height: 119px;
+
+        border-top: 1px solid #cacaca;
+
+        border-bottom: 1px solid #cacaca;
+
+    }
+
+    .ui-accordion-header .question {
+
+        margin: 0;
+
+    }
+
+    .border2 {
+
+        display: flex;
+
+        justify-content: space-between;
+
+        margin: 0;
+
+        padding: 0;
+
+        max-width: 229px;
+
+        height: auto;
+
+        font-size: 14px;
+
+        font-style: normal;
+
+        font-weight: 500;
+
+        line-height: 24px;
+
+    }
+
+    .question-block1 {
+
+        margin: 39px 0 14px 0 !important;
+
+        padding: 0;
+
+        width: auto;
+
+        height: auto;
+
+        font-size: 48px;
+
+        font-style: normal;
+
+        font-weight: 400;
+
+        line-height: 59px
+
+    }
+
+    .icon1 {
+
+        margin: 0 0 0 auto;
+
+        padding: 0;
+
+        width: 50px;
+
+        height: 50px;
+
+    }
+
+    .footer-main {
+
+        margin: 44px 0 0 0;
+
+        padding: 0;
+
+        width: auto;
+
+        height: auto;
+
+    }
+
+    .footer-main2::before {
+
+        content: '';
+
+        position: absolute;
+
+        left: 0;
+
+        bottom: -4405px;
+
+        width: 100vw;
+
+        height: 633px;
+
+        background-color: #222222;
+
+        z-index: -1;
+
+    }
+
+    .footer-block2 {
+
+        margin: 0;
+
+    }
+
+    .footer-block3 {
+
+        display: none;
+
+    }
+
+    .h3-form-footer {
+
+        margin: 28px 0 0 0;
+
+        padding: 0;
+
+        width: auto;
+
+        height: auto;
+
+        font-style: normal;
+
+        font-weight: 400;
+
+        text-align: left;
+
+        font-size: 48px;
+
+        line-height: 59px;
+
+    }
+
+    .footer-form-input-1 {
+
+        width: 100%;
+
+        height: 60px;
+
+        padding-left: 20px;
+
+        margin: 23px 0 0 0;
+
+    }
+
+    .footer-form-textarea {
+
+        width: 100%;
+
+        height: 60px;
+
+        padding-left: 20px;
+
+        margin: 23px 0 0 0;
+
+        height: 150px;
+
+    }
+
+    .footer-form-button {
+
+        display: block;
+
+        margin: 27px 0 0 0;
+
+        padding: 20px 38px;
+
+        width: auto;
+
+        height: auto;
+
+        font-size: 16px;
+
+        font-style: normal;
+
+        font-weight: 700;
+
+        line-height: 20px;
+
+    }
+
+    .footer-form-checkbox {
+
+        margin: 0 0 0 7px;
+
+        width: auto;
+
+        height: auto;
+
+    }
+
+    .logo2 {
+
+        width: 100%;
+
+        height: 72px;
+
+        margin: 15px 0 22px 0;
+
+        padding: 0;
+
+        background-size: auto 72px;
+
+        background-position: left center;
+
+    }
+
+    .footer-block1 {
+
+        width: 407px;
+
+        height: auto;
+
+        margin: 0 !important;
+
+        padding: 0
+
+    }
+
+    .footer-ul li {
+
+        margin-bottom: 13px;
+
+    }
+
+    .footer-li-item {
+
+        font-size: 18px;
+
+        line-height: 22px;
+
+    }
+
+    .footer-block2 .footer-form-input-1,
+
+    .footer-block2 .footer-form-textarea {
+
+        margin-left: 0;
+
+    }
+
+    .footer-block2 form div {
+
+        display: flex;
+
+        align-items: baseline;
+
+    }
+
+    .burgermenu {
+
+        background-color: white;
+
+        float: left;
+
+        width: 100px;
+
+        margin-left: -18px;
+
+        margin-top: -30px;
+
+        transform: translateX(-110%);
+
+    }
+
+    .burgermenu.isActive {
+
+        transform: none;
+
+        display: flex;
+
+        margin-top: 20px;
+
+        font-size: 15px;
+
+        margin-left: 10px;
+
+    }
+
+    .swiper-container-horizontal>.swiper-pagination-bullets,
+
+    .swiper-pagination-custom,
+
+    .swiper-pagination-fraction {
+
+        bottom: 10px;
+
+        left: 0;
+
+        width: 100%;
+
+        margin-bottom: 300px;
+
+    }
+
+}
+
