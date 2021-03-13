@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+ 
+<script src="main.js" defer></script>
+<body>
+  <h3>Поля фильтрации</h3>
+  <p><input id="inputFilterName" >Имя,Фамилия,Отчество</input>
+  <input id="inputFilterFaculty">факультет</input>
+  <p><input id="inputFilterYearStudy">год начала обучения</input>
+  <input id="inputYearEndStudy">год завершения обучения</input>
+  
+  <table id="table">
+ <tr>
+     <td id="name">Имя,Фамилия,Отчество</td>
+     <td id="faculty">факультет</td>
+	 <td id="yearBirth">дата рождения</td>
+     <td id="yearStudy">год начала обучения</td>
+     
+ </tr>
+</table>
+<form id ="form" action="main.js" >
+ <input type="text" id="inputName" placeholder="имя"/>
+ <input type="text" id="inputSurName" placeholder="отчество"/>
+ <input  type="text" id="inputFam" placeholder="фамилия"/>
+ <input type="date" id="inputYearBirth" placeholder="год рождения"/>
+ <input type="date" id="inputYearStudy" placeholder="год начала обучения"/>
+ <input type="text" id="inputFaculty" placeholder="факультет"/>
+<p><button type="submit">Занести в таблицу</button>
+
+
+</form>
+<button id="buttonSortName" >Cортировать по имени</button>
+<button id="buttonSortFaculty" >Cортировать по названию факультета</button>
+<button id="buttonSortBirtday">Cортировать по дате рождения</button>
+<button id="buttonSortStartStudy">Cортировать по году начала обучения</button>
+<style>
+#fam{border:1px green solid;}
+#surname{border:1px green solid;}
+#name{border:1px green solid;}
+#yearBirth{border:1px green solid;}
+#yearStudy{border:1px green solid;}
+#faculty{border:1px green solid;}
+
+</style>
+
+
+   
+</body>
+</html>

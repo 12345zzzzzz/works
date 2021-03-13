@@ -1,0 +1,9 @@
+//cоздаем таблицу
+ tableStudents = document.createElement('table');
+  tableStudents.style.width = '100%';
+  tableStudents.setAttribute('border', '1');
+  let tableBody = document.createElement('TBODY');
+  table.appendChild(tableBody);
+//заполняем таблицу
+let template2=generateStudentSortName(Data);
+addDataTable(tableStudents,template2)
